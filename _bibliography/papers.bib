@@ -1,115 +1,151 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@article{doi:10.1177/00031224251362254,
+author = {Daniel Scott Smith and Neha Nayak Kennard and Tianyu Du and Daniel A. McFarland},
+title ={How Values and Uncertainty Shape Scientific Advance in Peer Review},
+journal = {American Sociological Review},
+volume = {90},
+number = {5},
+pages = {879-915},
+year = {2025},
+doi = {10.1177/00031224251362254},
+URL = {https://doi.org/10.1177/00031224251362254},
+eprint = {https://doi.org/10.1177/00031224251362254},
+abstract = { Tens of thousands of scientists contribute to peer review as journal editors and reviewers of the millions of manuscripts submitted every year. How do they decide what is quality work? What values do they apply in evaluating which science merits publication and which does not? How do they respond to dissensus and uncertainty? Who has the greatest influence over the final outcome? This study combines close reading with large language models to analyze 80,000 reviews of 28,000 accepted and rejected manuscripts in engineering and the life sciences. By following reviewers’ value judgments and editorial decisions, we come to a different view of how epistemic cultures are practiced in journal science. Instead of a consensual dialogue revealing salient norms, we find reviewers differently weigh (“commensurate”) their judgments to attribute value to works. Their pluralistic viewpoints elevate uncertainty about the work, and editors respond by aligning with the most negative of reviewers. Surprisingly, we observe engineers and life scientists find the same epistemic criteria are salient, valued, and influential, with novelty and accuracy being primary. These results underscore how contingency and uncertainty are structural features of STEM peer review and essential to its effectiveness and legitimacy. }
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+
+@inproceedings{zhang-etal-2023-causal-matching,
+    title = "Causal Matching with Text Embeddings: A Case Study in Estimating the Causal Effects of Peer Review Policies",
+    author = "Zhang, Raymond  and
+      Kennard, Neha Nayak  and
+      Smith, Daniel  and
+      McFarland, Daniel  and
+      McCallum, Andrew  and
+      Keith, Katherine",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.83",
+    pages = "1284--1297",
+    abstract = "A promising approach to estimate the causal effects of peer review policies is to analyze data from publication venues that shift policies from single-blind to double-blind from one year to the next. However, in these settings the content of the manuscript is a confounding variable{---}each year has a different distribution of scientific content which may naturally affect the distribution of reviewer scores. To address this textual confounding, we extend variable ratio nearest neighbor matching to incorporate text embeddings. We compare this matching method to a widely-used causal method of stratified propensity score matching and a baseline of randomly selected matches. For our case study of the ICLR conference shifting from single- to double-blind review from 2017 to 2018, we find human judges prefer manuscript matches from our method in 70{\%} of cases. While the unadjusted estimate of the average causal effect of reviewers{'} scores is -0.25, our method shifts the estimate to -0.17, a slightly smaller difference between the outcomes of single- and double-blind policies. We hope this case study enables exploration of additional text-based causal estimation methods and domains in the future.",
+bibtex-show=True,
+code={https://github.com/raymondEDS/VRM-E},
+pdf={https://aclanthology.org/2023.findings-acl.83.pdf},
+}
+@inproceedings{kennard-etal-2022-disapere,
+    title = "{DISAPERE}: A Dataset for Discourse Structure in Peer Review Discussions",
+    author = "Kennard, Neha  and
+      O{'}Gorman, Tim  and
+      Das, Rajarshi  and
+      Sharma, Akshay  and
+      Bagchi, Chhandak  and
+      Clinton, Matthew  and
+      Yelugam, Pranay Kumar  and
+      Zamani, Hamed  and
+      McCallum, Andrew",
+    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.naacl-main.89",
+    doi = "10.18653/v1/2022.naacl-main.89",
+    pages = "1234--1249",
+    abstract = "At the foundation of scientific evaluation is the labor-intensive process of peer review. This critical task requires participants to consume vast amounts of highly technical text. Prior work has annotated different aspects of review argumentation, but discourse relations between reviews and rebuttals have yet to be examined. We present DISAPERE, a labeled dataset of 20k sentences contained in 506 review-rebuttal pairs in English, annotated by experts. DISAPERE synthesizes label sets from prior work and extends them to include fine-grained annotation of the rebuttal sentences, characterizing their context in the review and the authors{'} stance towards review arguments. Further, we annotate \textit{every} review and rebuttal sentence. We show that discourse cues from rebuttals can shed light on the quality and interpretation of reviews. Further, an understanding of the argumentative strategies employed by the reviewers and authors provides useful signal for area chairs and other decision makers.",
+   bibtex_show = True,
+   pdf = {https://aclanthology.org/2022.naacl-main.89.pdf},
+   slides = {https://github.com/nnkennard/nnkennard.github.io/raw/main/files/kennard-etal-2022-disapere_slides.pdf},
+}
+@inproceedings{angeli-etal-2016-combining,
+    title = "Combining Natural Logic and Shallow Reasoning for Question Answering",
+    author = "Angeli, Gabor  and
+      Nayak, Neha  and
+      Manning, Christopher D.",
+    booktitle = "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2016",
+    address = "Berlin, Germany",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P16-1042",
+    doi = "10.18653/v1/P16-1042",
+    pages = "442--452",
+    pdf = {https://aclanthology.org/P16-1042.pdf},
+    bibtex_show = True,
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+@inproceedings{nayak-etal-2016-evaluating,
+    title = "Evaluating Word Embeddings Using a Representative Suite of Practical Tasks",
+    author = "Nayak, Neha  and
+      Angeli, Gabor  and
+      Manning, Christopher D.",
+    booktitle = "Proceedings of the 1st Workshop on Evaluating Vector-Space Representations for {NLP}",
+    month = aug,
+    year = "2016",
+    address = "Berlin, Germany",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W16-2504",
+    doi = "10.18653/v1/W16-2504",
+    pages = "19--23",
+    pdf = {https://aclanthology.org/W16-2504.pdf},
+    bibtex_show = True,
+    slides = {http://nnkennard.github.io/files/nayak-etal-2016-evaluating_slides.pdf},
+    code = {https://github.com/NehaNayak/veceval},
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
+@inproceedings{nayak17_interspeech,
+  author={Neha Nayak and Dilek Hakkani-Tür and Marilyn Walker and Larry Heck},
+  title={{To Plan or not to Plan? Discourse Planning in Slot-Value Informed Sequence to Sequence Models for Language Generation}},
+  year=2017,
+  booktitle={Proc. Interspeech 2017},
+  pages={3339--3343},
+  doi={10.21437/Interspeech.2017-1525},
+  pdf = {https://www.isca-speech.org/archive/pdfs/interspeech_2017/nayak17_interspeech.pdf},
+  bibtex_show = True,
+  poster = {nayak17_interspeech_poster.pdf},
+
 }
 
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
+@techreport{2014nayak-adjectives,
+  title = {A Dictionary of Nonsubsective Adjectives},
+  author = {Neha Nayak and Mark Kowarsky and Gabor Angeli and Christopher D. Manning},
+  number = {CSTR 2014-04},
+  institution = {Department of Computer Science, Stanford University},
+  month = {October},
+  year = {2014},
+  pdf = {https://hci.stanford.edu/cstr/reports/2014-04.pdf},
+  bibtex_show = True,
 }
 
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
+@article{nayak2015learning,
+  title={Learning hypernymy over word embeddings},
+  author={Nayak, Neha},
+  journal={arXiv},
+  year={2015},
+  pdf = {https://nnkennard.github.io/files/papers/nayak2015learning.pdf},
+  bibtex_show = True,
 }
 
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+@article{DBLP:journals/corr/abs-1801-04871,
+  author    = {Pararth Shah and
+               Dilek Hakkani{-}T{\"{u}}r and
+               G{\"{o}}khan T{\"{u}}r and
+               Abhinav Rastogi and
+               Ankur Bapna and
+               Neha Nayak and
+               Larry P. Heck},
+  title     = {Building a Conversational Agent Overnight with Dialogue Self-Play},
+  journal   = {CoRR},
+  volume    = {abs/1801.04871},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1801.04871},
+  eprinttype = {arXiv},
+  eprint    = {1801.04871},
+  timestamp = {Mon, 13 Aug 2018 16:48:00 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1801-04871.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  pdf = {https://arxiv.org/pdf/1801.04871.pdf},
+  bibtex_show = True,
 }
