@@ -11,7 +11,8 @@ year = {2025},
 doi = {10.1177/00031224251362254},
 URL = {https://doi.org/10.1177/00031224251362254},
 eprint = {https://doi.org/10.1177/00031224251362254},
-abstract = { Tens of thousands of scientists contribute to peer review as journal editors and reviewers of the millions of manuscripts submitted every year. How do they decide what is quality work? What values do they apply in evaluating which science merits publication and which does not? How do they respond to dissensus and uncertainty? Who has the greatest influence over the final outcome? This study combines close reading with large language models to analyze 80,000 reviews of 28,000 accepted and rejected manuscripts in engineering and the life sciences. By following reviewers’ value judgments and editorial decisions, we come to a different view of how epistemic cultures are practiced in journal science. Instead of a consensual dialogue revealing salient norms, we find reviewers differently weigh (“commensurate”) their judgments to attribute value to works. Their pluralistic viewpoints elevate uncertainty about the work, and editors respond by aligning with the most negative of reviewers. Surprisingly, we observe engineers and life scientists find the same epistemic criteria are salient, valued, and influential, with novelty and accuracy being primary. These results underscore how contingency and uncertainty are structural features of STEM peer review and essential to its effectiveness and legitimacy. }
+abstract = { Tens of thousands of scientists contribute to peer review as journal editors and reviewers of the millions of manuscripts submitted every year. How do they decide what is quality work? What values do they apply in evaluating which science merits publication and which does not? How do they respond to dissensus and uncertainty? Who has the greatest influence over the final outcome? This study combines close reading with large language models to analyze 80,000 reviews of 28,000 accepted and rejected manuscripts in engineering and the life sciences. By following reviewers’ value judgments and editorial decisions, we come to a different view of how epistemic cultures are practiced in journal science. Instead of a consensual dialogue revealing salient norms, we find reviewers differently weigh (“commensurate”) their judgments to attribute value to works. Their pluralistic viewpoints elevate uncertainty about the work, and editors respond by aligning with the most negative of reviewers. Surprisingly, we observe engineers and life scientists find the same epistemic criteria are salient, valued, and influential, with novelty and accuracy being primary. These results underscore how contingency and uncertainty are structural features of STEM peer review and essential to its effectiveness and legitimacy. },
+code = {https://github.com/danielscottsmith/valuesInScience},
 }
 
 
@@ -30,10 +31,12 @@ abstract = { Tens of thousands of scientists contribute to peer review as journa
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2023.findings-acl.83",
     pages = "1284--1297",
+    preview = {nnk_2023.png},
     abstract = "A promising approach to estimate the causal effects of peer review policies is to analyze data from publication venues that shift policies from single-blind to double-blind from one year to the next. However, in these settings the content of the manuscript is a confounding variable{---}each year has a different distribution of scientific content which may naturally affect the distribution of reviewer scores. To address this textual confounding, we extend variable ratio nearest neighbor matching to incorporate text embeddings. We compare this matching method to a widely-used causal method of stratified propensity score matching and a baseline of randomly selected matches. For our case study of the ICLR conference shifting from single- to double-blind review from 2017 to 2018, we find human judges prefer manuscript matches from our method in 70{\%} of cases. While the unadjusted estimate of the average causal effect of reviewers{'} scores is -0.25, our method shifts the estimate to -0.17, a slightly smaller difference between the outcomes of single- and double-blind policies. We hope this case study enables exploration of additional text-based causal estimation methods and domains in the future.",
 bibtex-show=True,
 code={https://github.com/raymondEDS/VRM-E},
-pdf={https://aclanthology.org/2023.findings-acl.83.pdf},
+pdf = {papers/nnk_2023.pdf},
+  preview     = {assets/img/thumbnails/nnk_2023.png}
 }
 @inproceedings{kennard-etal-2022-disapere,
     title = "{DISAPERE}: A Dataset for Discourse Structure in Peer Review Discussions",
@@ -56,7 +59,7 @@ pdf={https://aclanthology.org/2023.findings-acl.83.pdf},
     pages = "1234--1249",
     abstract = "At the foundation of scientific evaluation is the labor-intensive process of peer review. This critical task requires participants to consume vast amounts of highly technical text. Prior work has annotated different aspects of review argumentation, but discourse relations between reviews and rebuttals have yet to be examined. We present DISAPERE, a labeled dataset of 20k sentences contained in 506 review-rebuttal pairs in English, annotated by experts. DISAPERE synthesizes label sets from prior work and extends them to include fine-grained annotation of the rebuttal sentences, characterizing their context in the review and the authors{'} stance towards review arguments. Further, we annotate \textit{every} review and rebuttal sentence. We show that discourse cues from rebuttals can shed light on the quality and interpretation of reviews. Further, an understanding of the argumentative strategies employed by the reviewers and authors provides useful signal for area chairs and other decision makers.",
    bibtex_show = True,
-   pdf = {https://aclanthology.org/2022.naacl-main.89.pdf},
+   pdf = {papers/nnk_2022.pdf},
    slides = {https://github.com/nnkennard/nnkennard.github.io/raw/main/files/kennard-etal-2022-disapere_slides.pdf},
 }
 @inproceedings{angeli-etal-2016-combining,
@@ -72,7 +75,9 @@ pdf={https://aclanthology.org/2023.findings-acl.83.pdf},
     url = "https://aclanthology.org/P16-1042",
     doi = "10.18653/v1/P16-1042",
     pages = "442--452",
-    pdf = {https://aclanthology.org/P16-1042.pdf},
+      pdf = {papers/nnk_2016b.pdf},
+    abstract = {Broad domain question answering is often difficult in the absence of structured knowledge bases, and can benefit from shallow lexical methods (broad coverage) and logical reasoning (high precision). We propose an approach for incorporating both of these signals in a unified framework based on natural logic. We extend the breadth of inferences afforded by natural logic to include relational entailment (e.g., buy → own) and meronymy (e.g., a person born in a city is born the city’s country). Furthermore, we train an evaluation function – akin to gameplaying – to evaluate the expected truth of candidate premises on the fly. We evaluate our approach on answering multiple choice science questions, achieving strong results on the dataset.
+},
     bibtex_show = True,
 }
 
@@ -89,10 +94,11 @@ pdf={https://aclanthology.org/2023.findings-acl.83.pdf},
     url = "https://aclanthology.org/W16-2504",
     doi = "10.18653/v1/W16-2504",
     pages = "19--23",
-    pdf = {https://aclanthology.org/W16-2504.pdf},
+      pdf = {papers/nnk_2016a.pdf},
     bibtex_show = True,
     slides = {http://nnkennard.github.io/files/nayak-etal-2016-evaluating_slides.pdf},
     code = {https://github.com/NehaNayak/veceval},
+    abstract = {Word embeddings are increasingly used in natural language understanding tasks requiring sophisticated semantic information. However, the quality of new embedding methods is usually evaluated based on simple word similarity benchmarks. We propose evaluating word embeddings in vivo by evaluating them on a suite of popular downstream tasks. To ensure the ease of use of the evaluation, we take care to find a good point in the tradeoff space between (1) creating a thorough evaluation – i.e., we evaluate on a diverse set of tasks; and (2) ensuring an easy and fast evaluation – by using simple models with few tuned hyperparameters. This allows us to release this evaluation as a standardized script and online evaluation, available at http://veceval.com/.},
 }
 
 @inproceedings{nayak17_interspeech,
@@ -102,50 +108,12 @@ pdf={https://aclanthology.org/2023.findings-acl.83.pdf},
   booktitle={Proc. Interspeech 2017},
   pages={3339--3343},
   doi={10.21437/Interspeech.2017-1525},
-  pdf = {https://www.isca-speech.org/archive/pdfs/interspeech_2017/nayak17_interspeech.pdf},
+  pdf = {papers/nnk_2017.pdf},
   bibtex_show = True,
   poster = {nayak17_interspeech_poster.pdf},
+  abstract={Natural language generation for task-oriented dialogue systems aims to effectively realize system dialogue actions. All natural language generators (NLGs) must realize grammatical, natural and appropriate output, but in addition, generators for task-oriented dialogue must faithfully perform a specific dialogue act that conveys specific semantic information, as dictated by the dialogue policy of the system dialogue manager. Most previous work on deep learning methods for task-oriented NLG assumes that generation output can be an utterance skeleton. Utterances are delexicalized, with variable names for slots, which are then replaced with actual values as part of post-processing. However, the value of slots do, in fact, influence the lexical selection in the surrounding context as well as the overall sentence plan. To model this effect, we investigate sequence-to-sequence (seq2seq) models in which slot values are included as part of the input sequence and the output surface form. Furthermore, we study whether a separate sentence planning module that decides on grouping of slot value mentions as input to the seq2seq model results in more natural sentences than a seq2seq model that aims to jointly learn the plan and the surface realization.},
 
 }
 
-@techreport{2014nayak-adjectives,
-  title = {A Dictionary of Nonsubsective Adjectives},
-  author = {Neha Nayak and Mark Kowarsky and Gabor Angeli and Christopher D. Manning},
-  number = {CSTR 2014-04},
-  institution = {Department of Computer Science, Stanford University},
-  month = {October},
-  year = {2014},
-  pdf = {https://hci.stanford.edu/cstr/reports/2014-04.pdf},
-  bibtex_show = True,
-}
 
-@article{nayak2015learning,
-  title={Learning hypernymy over word embeddings},
-  author={Nayak, Neha},
-  journal={arXiv},
-  year={2015},
-  pdf = {https://nnkennard.github.io/files/papers/nayak2015learning.pdf},
-  bibtex_show = True,
-}
 
-@article{DBLP:journals/corr/abs-1801-04871,
-  author    = {Pararth Shah and
-               Dilek Hakkani{-}T{\"{u}}r and
-               G{\"{o}}khan T{\"{u}}r and
-               Abhinav Rastogi and
-               Ankur Bapna and
-               Neha Nayak and
-               Larry P. Heck},
-  title     = {Building a Conversational Agent Overnight with Dialogue Self-Play},
-  journal   = {CoRR},
-  volume    = {abs/1801.04871},
-  year      = {2018},
-  url       = {http://arxiv.org/abs/1801.04871},
-  eprinttype = {arXiv},
-  eprint    = {1801.04871},
-  timestamp = {Mon, 13 Aug 2018 16:48:00 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-1801-04871.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org},
-  pdf = {https://arxiv.org/pdf/1801.04871.pdf},
-  bibtex_show = True,
-}
