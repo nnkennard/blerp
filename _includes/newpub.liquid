@@ -1,0 +1,45 @@
+<div>
+
+<b>{{entry.title}}</b><br>
+<i>{{entry.authors}}</i><br>
+{{entry.venueyear}}
+
+{% if entry.pdf %}
+
+    {% if entry.pdf contains '://' %}
+        {% assign pdfref = entry.pdf %}
+    {% else %}
+        {% assign pdfref = entry.key | append: '.pdf' | prepend: '/assets/pdf/papers/' | relative_url %}
+    {% endif %}
+
+    [<a href="{{ pdfref }}" target="_blank">pdf</a>]
+
+{% endif %}
+
+{% if entry.code %}
+
+    [<a href="{{ entry.code }}">code</a>]
+
+{% endif %}
+
+{% if entry.poster %}
+
+    [<a href="{{ entry.key | append: '.pdf' | prepend: '/assets/pdf/posters/' | relative_url }}">poster</a>]
+
+{% endif %}
+
+{% if entry.slides %}
+
+    [<a href="{{ entry.key | append: '.pdf' | prepend: '/assets/pdf/slides/' | relative_url }}" >slides</a>]
+
+{% endif %}
+
+{% if entry.doi %}
+
+    [<a href="https://doi.org/{{ entry.doi }}">doi</a>]
+
+{% endif %}
+
+
+<br> <br>
+</div>

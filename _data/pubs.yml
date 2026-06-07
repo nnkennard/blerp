@@ -1,0 +1,73 @@
+---
+papers:
+
+- key: nnk_2025
+  title: How Values and Uncertainty Shape Scientific Advance in Peer Review
+  authors: Daniel Scott Smith, <b>Neha Nayak Kennard</b>, Tianyu Du, and Daniel A. McFarland
+  venueyear: American Sociological Review, 2025
+  doi: 10.1177/00031224251362254
+  code: https://github.com/danielscottsmith/valuesInScience
+  pdf: true
+
+- key: nnk_2023
+  title: "Causal Matching with Text Embeddings: A Case Study in Estimating the Causal Effects of Peer Review Policies"
+  authors: Raymond Zhang, <b>Neha Nayak Kennard</b>, Daniel Smith, Daniel McFarland, Andrew McCallum, and Katherine Keith
+  venueyear: "ACL Findings, 2023"
+  doi: 10.18653/v1/2023.findings-acl.83
+  code: https://github.com/raymondEDS/VRM-E
+  pdf: https://aclanthology.org/2023.findings-acl.83.pdf
+
+- key: nnk_2022
+  title: "DISAPERE: A Dataset for Discourse Structure in Peer Review Discussions"
+  authors: Neha Kennard, Tim O’Gorman, Rajarshi Das, Akshay Sharma, Chhandak Bagchi, Matthew Clinton, Pranay Kumar Yelugam, Hamed Zamani, and Andrew McCallum
+  venueyear: NAACL 2022
+  doi: 10.18653/v1/2022.naacl-main.89
+  code: https://github.com/nnkennard/DISAPERE
+  pdf: https://aclanthology.org/2022.naacl-main.89.pdf
+
+- key: nnk_2017
+  title: "To Plan or not to Plan? Discourse Planning in Slot-Value Informed Sequence to Sequence Models for Language Generation"
+  authors: <b>Neha Nayak</b>, Dilek Hakkani-Tür, Marilyn Walker, and Larry Heck
+  venueyear: INTERSPEECH 2017
+  doi: 10.21437/Interspeech.2017-1525
+  pdf: https://www.isca-archive.org/interspeech_2017/nayak17_interspeech.pdf
+  poster: true
+
+- key: nnk_2016a
+  title: Combining Natural Logic and Shallow Reasoning for Question Answering
+  authors: Gabor Angeli, <b>Neha Nayak</b>, and Christopher D. Manning
+  venueyear: ACL 2016
+  doi: 10.18653/v1/P16-1042
+  pdf: https://aclanthology.org/P16-1042.pdf
+  code: https://github.com/gangeli/Naturalli
+
+- key: nnk_2016b
+  title: Evaluating Word Embeddings Using a Representative Suite of Practical Tasks
+  authors: <b>Neha Nayak</b>, Gabor Angeli, and Christopher D. Manning
+  venueyear: 1st Workshop on Evaluating Vector-Space Representations for NLP, 2016
+  doi: 10.18653/v1/W16-2504
+  pdf: https://aclanthology.org/W16-2504.pdf
+  code: https://github.com/NehaNayak/veceval
+  slides: true
+
+
+reports:
+
+- key: nnk_2018
+  title: Building a Conversational Agent Overnight with Dialogue Self-Play
+  authors: Pararth Shah, Dilek Hakkani-Tür, Gokhan Tür, Abhinav Rastogi, Ankur Bapna, <b>Neha Nayak</b> and Larry Heck
+  venueyear: CoRR, 2018
+  doi: 10.48550/arXiv.1801.04871
+  pdf: https://arxiv.org/pdf/1801.04871
+
+- key: nnk_2015
+  title: Learning hypernymy over word embeddings
+  authors: <b>Neha Nayak</b>
+  venueyear: 2015
+  pdf: true
+
+- key: nnk_2014
+  title: A Dictionary of Nonsubsective Adjectives
+  authors: <b>Neha Nayak</b>, Mark Kowarsky, Gabor Angeli, and Christopher D. Manning
+  venueyear: 2014
+  pdf: true
